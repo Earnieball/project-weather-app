@@ -17,22 +17,27 @@ body {
 }
 
 .weather-app {
-  margin: 2.5rem 3rem 0 2.5rem;
+  margin: 1.9rem 3rem 0 2.5rem;
 }
 
 .weather-desc-temp,
 .sun-time {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin: 0;
   padding-bottom: 0.3rem;
 }
 
 .weather-mid-container {
-  margin: 1.3rem 1.5rem 0 0;
+  margin: 1.8rem 1.5rem 0 0;
+}
+
+.weather-icon {
+  width: 6.9rem;
 }
 
 .weather-message {
-  font-size: 1.5rem;
+  margin-top: 1.6rem;
+  font-size: 2.1rem;
 }
 
 .fc-day-container {
@@ -42,50 +47,46 @@ body {
 }
 
 .fc-day-temp {
-  font-size: 14px;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0.3rem 0 0.1rem 0;
 }
 
 .search {
-  margin-top: 1.4rem;
+  margin-top: 2.1rem;
 }
 
 .search-bar {
   border: 1px solid var(--text-color);
-  border-radius: 3px;
-  height: 1.1rem;
-  width: 10rem;
+  border-radius: 5px;
+  height: 1.7rem;
+  width: 14rem;
 }
 
 .search-bar:focus,
 .search-bar:active,
 .search-bar::placeholder {
   color: var(--text-color);
-  font-size: 0.7rem;
+  font-size: 1rem;
   text-indent: 4px;
   outline: none;
 }
 
 .search-btn {
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   background: var(--text-color);
   color: white;
-  font-size: 0.7rem;
-  height: 1.3rem;
-  vertical-align: middle;
+  font-size: 15px;
+  height: 1.9rem;
+  width: 4.2rem;
+  vertical-align: top;
 }
 
 @media (min-width: 668px) {
   .weather-app {
     margin: 2.5rem auto;
     max-width: 550px;
-  }
-
-  .weather-desc-temp,
-  .sun-time {
-    font-size: 1.2rem;
   }
 
   .weather-mid-container {
@@ -98,27 +99,10 @@ body {
   }
 
   .fc-day-temp {
-    font-size: 1.1rem;
     margin-top: 1.5rem;
   }
 
   .search {
     margin-top: 2.5rem;
-  }
-
-  .search-bar {
-    height: 1.6rem;
-  }
-
-  .search-bar::placeholder {
-    font-size: 0.8rem;
-  }
-
-  .search-btn {
-    font-size: 0.7rem;
-    margin-left: 0.1rem;
-    vertical-align: middle;
-    height: 1.7rem;
-    width: 3.3rem;
   }
 }
