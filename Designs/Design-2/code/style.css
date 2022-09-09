@@ -37,7 +37,7 @@ body {
 
 .weather-message {
   margin-top: 1.6rem;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
 }
 
 .fc-day-container {
@@ -96,7 +96,6 @@ body {
   }
 
   .weather-message {
-    font-size: 1.8rem;
     margin: 2rem 0 1rem;
   }
 
