@@ -77,11 +77,12 @@ body {
   border-radius: 5px;
   background: var(--text-color);
   color: white;
+  display: flex
+  justify-content: center;
   font-size: 15px;
   height: 1.9rem;
   width: 4.2rem;
   vertical-align: middle;
-  text-align: -webkit-center;
 }
 
 @media (min-width: 668px) {
