@@ -79,10 +79,9 @@ body {
   color: white;
   display: flex
   justify-content: center;
-  font-size: 15px;
+  font-size: 14px;
   height: 1.9rem;
   width: 4.2rem;
-  vertical-align: middle;
 }
 
 @media (min-width: 668px) {
