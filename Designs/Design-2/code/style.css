@@ -61,7 +61,7 @@ body {
   border: 1px solid var(--text-color);
   border-radius: 5px;
   height: 1.7rem;
-  width: 12rem;
+  width: 10rem;
 }
 
 .search-bar:focus,
