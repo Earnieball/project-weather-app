@@ -61,7 +61,7 @@ body {
   border: 1px solid var(--text-color);
   border-radius: 5px;
   height: 1.7rem;
-  width: 10rem;
+  width: 8rem;
 }
 
 .search-bar:focus,
@@ -107,4 +107,7 @@ body {
   .search {
     margin-top: 2.5rem;
   }
+  
+  .search-bar {
+    width: 14rem;
 }
