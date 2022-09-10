@@ -17,7 +17,7 @@ body {
 }
 
 .weather-app {
-  margin: 1.9rem 3rem 0 2.5rem;
+  margin: 2rem 3rem 0 2.5rem;
 }
 
 .weather-desc-temp,
@@ -28,7 +28,7 @@ body {
 }
 
 .weather-mid-container {
-  margin: 1.8rem 1.5rem 0 0;
+  margin: 1.8rem 0;
 }
 
 .weather-icon {
