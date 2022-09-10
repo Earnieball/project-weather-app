@@ -17,7 +17,7 @@ body {
 }
 
 .weather-app {
-  margin: 1.9rem 3rem 0 2.5rem;
+  margin: 2rem 3rem 0 2.5rem;
 }
 
 .weather-desc-temp,
@@ -32,12 +32,12 @@ body {
 }
 
 .weather-icon {
-  width: 6.9rem;
+  width: 6.5rem;
 }
 
 .weather-message {
   margin-top: 1.6rem;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 
 .fc-day-container {
@@ -77,9 +77,10 @@ body {
   border-radius: 5px;
   background: var(--text-color);
   color: white;
-  font-size: .8rem;
+  font-size: .9rem;
   height: 1.9rem;
   width: 4rem;
+  text-align: left;
   vertical-align: middle;
 }
 
