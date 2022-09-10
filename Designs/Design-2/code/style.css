@@ -48,7 +48,7 @@ body {
 }
 
 .fc-day-temp {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
   padding: 0.6rem 0 0.1rem 0;
 }
@@ -81,7 +81,7 @@ body {
   font-size: 0.9rem;
   height: 1.9rem;
   width: 4.2rem;
-  text-align: left;
+  text-align: center;
   vertical-align: middle;
 }
 
