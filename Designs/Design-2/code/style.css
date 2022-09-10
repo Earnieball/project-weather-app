@@ -37,7 +37,7 @@ body {
 }
 
 .weather-message {
-  margin: 0.9rem 0 1.6rem;
+  margin: 0.9rem 0 1.7rem;
   font-size: 1.7rem;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .fc-day-temp {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0;
   padding: 0.5rem 0 0.1rem 0;
 }
