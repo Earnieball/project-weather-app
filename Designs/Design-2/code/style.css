@@ -36,7 +36,7 @@ body {
 }
 
 .weather-message {
-  margin-top: 1.6rem;
+  margin: 1.6rem 0;
   font-size: 1.7rem;
 }
 
@@ -97,8 +97,8 @@ body {
     margin: 2rem 0 1rem;
   }
 
-  .fc-day-temp {
-    margin-top: 1.5rem;
+  .fc-day-temp { 
+    padding: 1.7rem 0 0.2rem 0;
   }
 
   .search {
