@@ -47,9 +47,9 @@ body {
 }
 
 .fc-day-temp {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
-  padding: 0.3rem 0 0.1rem 0;
+  padding: 0.5rem 0 0.1rem 0;
 }
 
 .search {
@@ -77,10 +77,9 @@ body {
   border-radius: 5px;
   background: var(--text-color);
   color: white;
-  font-size: .9rem;
+  font-size: .8rem;
   height: 1.9rem;
   width: 4rem;
-  text-align: left;
   vertical-align: middle;
 }
 
