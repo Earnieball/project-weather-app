@@ -97,14 +97,7 @@ function fetchWeather(city) {
       if (onlyNoons.length === 4) {
         onlyNoons.push(forecastData.pop());
       }
-    
-      /*
-      onlyNoons.map(point => { 
-      return point.dt = new Date(entry.dt * 1000).toLocaleDateString('en-GB', {weekday: 'short'});
-      }); */
 
-
-      console.log(onlyNoons);
       // Looping through the onlyNoons array to get just the dates and temp
       // formatting the dates to get the weekday names and putting each of
       // the items in a <p> tag:
