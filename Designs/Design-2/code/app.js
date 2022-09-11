@@ -96,8 +96,13 @@ function fetchWeather(city) {
       // available time/weather update for day 5:
       if (onlyNoons.length === 4) {
         onlyNoons.push(forecastData.pop());
-      }
+      } 
+    
+    onlyNoons.map(entry => { 
+      entry.dt = new Date(entry.dt * 1000).toLocaleDateString('en-GB', {weekday: 'short'});
+      });
 
+      console.log(onlyNoons);
       // Looping through the onlyNoons array to get just the dates and temp
       // formatting the dates to get the weekday names and putting each of
       // the items in a <p> tag:
@@ -105,11 +110,7 @@ function fetchWeather(city) {
       onlyNoons.forEach(point => {
         forecastContainer.innerHTML += `
         <div class="fc-day-container">
-          <p class="fc-day-temp">${new Date(point.dt_txt).toLocaleDateString(
-            'en-GB',
-            {
-              weekday: 'short',
-            }
+          <p class="fc-day-temp">${point.dt}
           )}</p> <p class="fc-day-temp">${Math.floor(point.main.temp)}ºC</p>
           </div>`;
       });
