@@ -105,12 +105,8 @@ function fetchWeather(city) {
       onlyNoons.forEach(point => {
         forecastContainer.innerHTML += `
         <div class="fc-day-container">
-          <p class="fc-day-temp">${new Date(point.dt_txt).toLocaleDateString(
-            'en-GB',
-            {
-              weekday: 'short',
-            }
-          )}</p> <p class="fc-day-temp">${Math.floor(point.main.temp)}ºC</p>
+          <p class="fc-day-temp">${new Date(point.dt * 1000).toLocaleDateString('en-GB', {weekday: 'short'})}</p>
+          <p class="fc-day-temp">${Math.floor(point.main.temp)}ºC</p>
           </div>`;
       });
     });
